@@ -1,0 +1,40 @@
+{
+  "parent": "block/block",
+  "display": {
+    "firstperson_righthand": {
+      "rotation": [ 0, 135, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.40, 0.40, 0.40 ]
+    }
+  },
+  "textures": {
+    "particle": "#all",
+    "overlayend": "beesknees:block/overlay_beehive_end",
+    "overlayfront": "beesknees:block/overlay_beehive_front",
+    "overlayside": "beesknees:block/overlay_beehive_side"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#all", "cullface": "down" },
+        "up":    { "texture": "#all", "cullface": "up" },
+        "north": { "texture": "#all", "cullface": "north" },
+        "south": { "texture": "#all", "cullface": "south" },
+        "west":  { "texture": "#all", "cullface": "west" },
+        "east":  { "texture": "#all", "cullface": "east" }
+      }
+    },
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "#overlayend", "cullface": "down" },
+        "up":    { "texture": "#overlayend", "cullface": "up" },
+        "north": { "texture": "#overlayfront", "cullface": "north" },
+        "south": { "texture": "#overlayside", "cullface": "south" },
+        "west":  { "texture": "#overlayside", "cullface": "west" },
+        "east":  { "texture": "#overlayside", "cullface": "east" }
+      }
+    }
+  ]
+}

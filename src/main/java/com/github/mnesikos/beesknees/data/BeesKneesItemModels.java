@@ -12,6 +12,15 @@ public class BeesKneesItemModels extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        orientableWithBottom("birch_beehive", modLoc("block/birch_beehive_side"), modLoc("block/birch_beehive_front"), modLoc("block/birch_beehive_end"), modLoc("block/birch_beehive_end"));
+        beehive("birch_beehive");
+        coloredTerracottaBeehive("pink_beehive");
+    }
+
+    public void beehive(String name) {
+        orientableWithBottom(name, modLoc("block/" + name + "_side"), modLoc("block/" + name + "_front"), modLoc("block/" + name + "_end"), modLoc("block/" + name + "_end"));
+    }
+
+    public void coloredTerracottaBeehive(String name) {
+        withExistingParent(name, modLoc("block/overlay_beehive")).texture("all", mcLoc("block/" + name.split("_beehive")[0] + "_terracotta"));
     }
 }

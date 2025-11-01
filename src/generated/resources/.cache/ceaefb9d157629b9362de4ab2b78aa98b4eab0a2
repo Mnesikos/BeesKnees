@@ -1,4 +1,7 @@
-// 1.20.1	2025-10-31T19:30:33.0471204	Block States: beesknees
+// 1.20.1	2025-10-31T22:45:43.057137	Block States: beesknees
 aa67fdf8df8d31d132fba03eccef9b2b7bafc469 assets/beesknees/blockstates/birch_beehive.json
+1e612b621b35ee4a73736e62d705f49969a27394 assets/beesknees/blockstates/pink_beehive.json
 e711e2063a40decdef52bed6fec6444cc8b653e3 assets/beesknees/models/block/birch_beehive.json
 1f13c2524058fef6376257d8f7bb4fcbe00a2103 assets/beesknees/models/block/birch_beehive_honey.json
+c75efc85a6d05813bf6922922ec1588908aa33db assets/beesknees/models/block/pink_beehive.json
+ba79bc54373291e3a4d6ffbd5dc3b6e2fad73346 assets/beesknees/models/block/pink_beehive_honey.json

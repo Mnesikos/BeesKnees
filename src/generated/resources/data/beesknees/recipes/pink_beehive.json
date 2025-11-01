@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dyed_beehive",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:beehive"
+      },
+      {
+        "item": "beesknees:birch_beehive"
+      }
+    ],
+    {
+      "item": "minecraft:pink_dye"
+    }
+  ],
+  "result": {
+    "item": "beesknees:pink_beehive"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "beesknees:block/overlay_beehive",
+  "textures": {
+    "all": "minecraft:block/pink_terracotta"
+  }
+}

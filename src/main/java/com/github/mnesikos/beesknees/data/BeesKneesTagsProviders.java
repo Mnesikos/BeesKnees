@@ -10,8 +10,10 @@ import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.PoiTypeTags;
 import net.minecraftforge.common.data.BlockTagsProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
+import java.util.Objects;
 import java.util.concurrent.CompletableFuture;
 
 public class BeesKneesTagsProviders {
@@ -21,12 +23,12 @@ public class BeesKneesTagsProviders {
         }
 
         @Override
-        protected void addTags(HolderLookup.Provider provider) {
+        protected void addTags(HolderLookup.@NotNull Provider provider) {
             tag(BlockTags.MINEABLE_WITH_AXE).add(
-                    BeesKneesBlocks.BIRCH_BEEHIVE.get()
+                    BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get()
             );
             tag(BlockTags.BEEHIVES).add(
-                    BeesKneesBlocks.BIRCH_BEEHIVE.get()
+                    BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get()
             );
         }
     }
@@ -37,8 +39,8 @@ public class BeesKneesTagsProviders {
         }
 
         @Override
-        protected void addTags(HolderLookup.Provider provider) {
-            tag(PoiTypeTags.BEE_HOME).add(BeesKneesPoiTypes.BEEHIVE.getKey());
+        protected void addTags(HolderLookup.@NotNull Provider provider) {
+            tag(PoiTypeTags.BEE_HOME).add(Objects.requireNonNull(BeesKneesPoiTypes.BEEHIVE.getKey()));
         }
     }
 }

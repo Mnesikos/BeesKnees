@@ -23,6 +23,7 @@ public class BeesKneesLootTables extends VanillaBlockLoot {
     @Override
     protected void generate() {
         add(BeesKneesBlocks.BIRCH_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.PINK_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
     }
 
     @Override

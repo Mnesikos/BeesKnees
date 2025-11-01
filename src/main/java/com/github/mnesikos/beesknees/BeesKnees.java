@@ -15,6 +15,7 @@ import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,10 +45,15 @@ public class BeesKnees {
         BeesKneesPoiTypes.REGISTRAR.register(bus);
 
         bus.addListener(this::setup);
+        bus.addListener(this::setupClient);
         bus.addListener(this::gatherData);
     }
 
     private void setup(final FMLCommonSetupEvent event) {
+    }
+
+    private void setupClient(final FMLClientSetupEvent event) {
+        BeesKneesBlocks.setRenderLayers();
     }
 
     private void gatherData(final GatherDataEvent event) {
