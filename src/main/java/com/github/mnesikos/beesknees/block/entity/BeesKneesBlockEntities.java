@@ -10,5 +10,7 @@ import net.minecraftforge.registries.RegistryObject;
 public class BeesKneesBlockEntities {
     public static final DeferredRegister<BlockEntityType<?>> REGISTRAR = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, BeesKnees.MOD_ID);
 
-    public static final RegistryObject<BlockEntityType<BKBeehiveBlockEntity>> BEEHIVE = REGISTRAR.register("beehive", () -> BlockEntityType.Builder.of(BKBeehiveBlockEntity::new, BeesKneesBlocks.BIRCH_BEEHIVE.get()).build(null));
+    public static final RegistryObject<BlockEntityType<BKBeehiveBlockEntity>> BEEHIVE = REGISTRAR.register("beehive", () -> BlockEntityType.Builder.of(BKBeehiveBlockEntity::new,
+            BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get()
+    ).build(null));
 }
