@@ -31,33 +31,4 @@ public class BKBeehiveBlock extends BeehiveBlock {
     public @Nullable <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> entityType) {
         return level.isClientSide ? null : createTickerHelper(entityType, BeesKneesBlockEntities.BEEHIVE.get(), BeehiveBlockEntity::serverTick);
     }
-
-    @Override
-    public void playerWillDestroy(Level level, BlockPos pos, BlockState state, Player player) {
-        if (!level.isClientSide && player.isCreative() && level.getGameRules().getBoolean(GameRules.RULE_DOBLOCKDROPS)) {
-            BlockEntity blockentity = level.getBlockEntity(pos);
-            if (blockentity instanceof BeehiveBlockEntity) {
-                BeehiveBlockEntity beehiveblockentity = (BeehiveBlockEntity) blockentity;
-                ItemStack itemstack = new ItemStack(this);
-                int i = state.getValue(HONEY_LEVEL);
-                boolean flag = !beehiveblockentity.isEmpty();
-                if (flag || i > 0) {
-                    if (flag) {
-                        CompoundTag compoundtag = new CompoundTag();
-                        compoundtag.put("Bees", beehiveblockentity.writeBees());
-                        BlockItem.setBlockEntityData(itemstack, BeesKneesBlockEntities.BEEHIVE.get(), compoundtag);
-                    }
-
-                    CompoundTag compoundtag1 = new CompoundTag();
-                    compoundtag1.putInt("honey_level", i);
-                    itemstack.addTagElement("BlockStateTag", compoundtag1);
-                    ItemEntity itementity = new ItemEntity(level, pos.getX(), pos.getY(), pos.getZ(), itemstack);
-                    itementity.setDefaultPickUpDelay();
-                    level.addFreshEntity(itementity);
-                }
-            }
-        }
-
-        super.playerWillDestroy(level, pos, state, player);
-    }
 }
