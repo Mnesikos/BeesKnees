@@ -22,7 +22,16 @@ public class BeesKneesBlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        beehiveBlock(BeesKneesBlocks.SPRUCE_BEEHIVE.get());
         beehiveBlock(BeesKneesBlocks.BIRCH_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.JUNGLE_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.ACACIA_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.DARK_OAK_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.MANGROVE_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.CHERRY_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.BAMBOO_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.CRIMSON_BEEHIVE.get());
+        beehiveBlock(BeesKneesBlocks.WARPED_BEEHIVE.get());
         overlayBeehiveBlock(BeesKneesBlocks.PINK_BEEHIVE.get(), Blocks.PINK_TERRACOTTA);
     }
 

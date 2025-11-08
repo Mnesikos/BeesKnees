@@ -21,7 +21,16 @@ public class BeesKneesRecipes extends RecipeProvider {
     @Override
     protected void buildRecipes(@NotNull Consumer<FinishedRecipe> consumer) {
         woodenBeehive(consumer, Blocks.BEEHIVE, Blocks.OAK_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.SPRUCE_BEEHIVE.get(), Blocks.SPRUCE_PLANKS);
         woodenBeehive(consumer, BeesKneesBlocks.BIRCH_BEEHIVE.get(), Blocks.BIRCH_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.JUNGLE_BEEHIVE.get(), Blocks.JUNGLE_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.ACACIA_BEEHIVE.get(), Blocks.ACACIA_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.DARK_OAK_BEEHIVE.get(), Blocks.DARK_OAK_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.MANGROVE_BEEHIVE.get(), Blocks.MANGROVE_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.CHERRY_BEEHIVE.get(), Blocks.CHERRY_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.BAMBOO_BEEHIVE.get(), Blocks.BAMBOO_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.CRIMSON_BEEHIVE.get(), Blocks.CRIMSON_PLANKS);
+        woodenBeehive(consumer, BeesKneesBlocks.WARPED_BEEHIVE.get(), Blocks.WARPED_PLANKS);
         coloredBeehive(consumer, BeesKneesBlocks.PINK_BEEHIVE.get().asItem(), Items.PINK_DYE);
     }
 

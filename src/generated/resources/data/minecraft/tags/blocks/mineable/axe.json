@@ -1,6 +1,15 @@
 {
   "values": [
+    "beesknees:spruce_beehive",
     "beesknees:birch_beehive",
+    "beesknees:jungle_beehive",
+    "beesknees:acacia_beehive",
+    "beesknees:cherry_beehive",
+    "beesknees:dark_oak_beehive",
+    "beesknees:mangrove_beehive",
+    "beesknees:bamboo_beehive",
+    "beesknees:crimson_beehive",
+    "beesknees:warped_beehive",
     "beesknees:pink_beehive"
   ]
 }

@@ -1,3 +1,12 @@
-// 1.20.1	2025-10-31T22:39:56.0028646	Item Models: beesknees
+// 1.20.1	2025-11-08T11:51:07.7723402	Item Models: beesknees
+78ac27825ccd97ad3ef72fdcd274fcd3f86a5358 assets/beesknees/models/item/acacia_beehive.json
+c1f0a9cc941b3c0b4e7ce5b44c7a11f60ae98317 assets/beesknees/models/item/bamboo_beehive.json
 6e05d93b0579bd823447533232fed3679e2c8e2a assets/beesknees/models/item/birch_beehive.json
+e5365c8f31c4c614dc53977a6d2f7963188b68dd assets/beesknees/models/item/cherry_beehive.json
+769ff0425e7d5e415935e4db041a75b370905b0e assets/beesknees/models/item/crimson_beehive.json
+f9b52cd028c335bc342254c13c722ee5d0cfa3f2 assets/beesknees/models/item/dark_oak_beehive.json
+358c123cdd84d54cda86431a358025db8cfdab5b assets/beesknees/models/item/jungle_beehive.json
+cd8ec141f4e7cb498f929236bd196379d7ee0936 assets/beesknees/models/item/mangrove_beehive.json
 c75efc85a6d05813bf6922922ec1588908aa33db assets/beesknees/models/item/pink_beehive.json
+7cce1287380011c3ed4c469695ba4607f706bd1d assets/beesknees/models/item/spruce_beehive.json
+543df28b841132f63bd1389ade1b1a3dd41eadfe assets/beesknees/models/item/warped_beehive.json

@@ -22,7 +22,16 @@ import java.util.stream.Collectors;
 public class BeesKneesLootTables extends VanillaBlockLoot {
     @Override
     protected void generate() {
+        add(BeesKneesBlocks.SPRUCE_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
         add(BeesKneesBlocks.BIRCH_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.JUNGLE_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.ACACIA_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.DARK_OAK_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.MANGROVE_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.CHERRY_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.BAMBOO_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.CRIMSON_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
+        add(BeesKneesBlocks.WARPED_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
         add(BeesKneesBlocks.PINK_BEEHIVE.get(), BlockLootSubProvider::createBeeHiveDrop);
     }
 

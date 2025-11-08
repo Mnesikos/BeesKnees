@@ -17,7 +17,10 @@ public class BeesKneesPoiTypes {
     public static final DeferredRegister<PoiType> REGISTRAR = DeferredRegister.create(ForgeRegistries.POI_TYPES, BeesKnees.MOD_ID);
 
     public static final RegistryObject<PoiType> BEEHIVE = REGISTRAR.register("beehive", () -> new PoiType(getBlockStates(Set.of(
-            BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get())),
+            BeesKneesBlocks.SPRUCE_BEEHIVE.get(), BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.JUNGLE_BEEHIVE.get(), BeesKneesBlocks.ACACIA_BEEHIVE.get(),
+            BeesKneesBlocks.DARK_OAK_BEEHIVE.get(), BeesKneesBlocks.MANGROVE_BEEHIVE.get(), BeesKneesBlocks.CHERRY_BEEHIVE.get(), BeesKneesBlocks.BAMBOO_BEEHIVE.get(),
+            BeesKneesBlocks.CRIMSON_BEEHIVE.get(), BeesKneesBlocks.WARPED_BEEHIVE.get(),
+            BeesKneesBlocks.PINK_BEEHIVE.get())),
             0, 1));
 
     private static Set<BlockState> getBlockStates(Set<Block> blocks) {

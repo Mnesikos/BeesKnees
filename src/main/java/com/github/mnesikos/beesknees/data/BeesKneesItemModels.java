@@ -12,7 +12,16 @@ public class BeesKneesItemModels extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        beehive("spruce_beehive");
         beehive("birch_beehive");
+        beehive("jungle_beehive");
+        beehive("acacia_beehive");
+        beehive("dark_oak_beehive");
+        beehive("mangrove_beehive");
+        beehive("cherry_beehive");
+        beehive("bamboo_beehive");
+        beehive("crimson_beehive");
+        beehive("warped_beehive");
         coloredTerracottaBeehive("pink_beehive");
     }
 

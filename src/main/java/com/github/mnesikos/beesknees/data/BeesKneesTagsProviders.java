@@ -25,10 +25,16 @@ public class BeesKneesTagsProviders {
         @Override
         protected void addTags(HolderLookup.@NotNull Provider provider) {
             tag(BlockTags.MINEABLE_WITH_AXE).add(
-                    BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get()
+                    BeesKneesBlocks.SPRUCE_BEEHIVE.get(), BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.JUNGLE_BEEHIVE.get(), BeesKneesBlocks.ACACIA_BEEHIVE.get(),
+                    BeesKneesBlocks.DARK_OAK_BEEHIVE.get(), BeesKneesBlocks.MANGROVE_BEEHIVE.get(), BeesKneesBlocks.CHERRY_BEEHIVE.get(), BeesKneesBlocks.BAMBOO_BEEHIVE.get(),
+                    BeesKneesBlocks.CRIMSON_BEEHIVE.get(), BeesKneesBlocks.WARPED_BEEHIVE.get(),
+                    BeesKneesBlocks.PINK_BEEHIVE.get()
             );
             tag(BlockTags.BEEHIVES).add(
-                    BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.PINK_BEEHIVE.get()
+                    BeesKneesBlocks.SPRUCE_BEEHIVE.get(), BeesKneesBlocks.BIRCH_BEEHIVE.get(), BeesKneesBlocks.JUNGLE_BEEHIVE.get(), BeesKneesBlocks.ACACIA_BEEHIVE.get(),
+                    BeesKneesBlocks.DARK_OAK_BEEHIVE.get(), BeesKneesBlocks.MANGROVE_BEEHIVE.get(), BeesKneesBlocks.CHERRY_BEEHIVE.get(), BeesKneesBlocks.BAMBOO_BEEHIVE.get(),
+                    BeesKneesBlocks.CRIMSON_BEEHIVE.get(), BeesKneesBlocks.WARPED_BEEHIVE.get(),
+                    BeesKneesBlocks.PINK_BEEHIVE.get()
             );
         }
     }

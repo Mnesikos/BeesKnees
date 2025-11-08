@@ -1,6 +1,15 @@
 {
   "itemGroup.beesknees.beesknees_group": "Bees Knees",
 
+  "block.beesknees.spruce_beehive": "Spruce Beehive",
   "block.beesknees.birch_beehive": "Birch Beehive",
+  "block.beesknees.jungle_beehive": "Jungle Beehive",
+  "block.beesknees.acacia_beehive": "Acacia Beehive",
+  "block.beesknees.dark_oak_beehive": "Dark Oak Beehive",
+  "block.beesknees.mangrove_beehive": "Mangrove Beehive",
+  "block.beesknees.cherry_beehive": "Cherry Beehive",
+  "block.beesknees.bamboo_beehive": "Bamboo Beehive",
+  "block.beesknees.crimson_beehive": "Crimson Beehive",
+  "block.beesknees.warped_beehive": "Warped Beehive",
   "block.beesknees.pink_beehive": "Pink Beehive"
 }

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "beesknees:block/warped_beehive_end",
+    "front": "beesknees:block/warped_beehive_front",
+    "side": "beesknees:block/warped_beehive_side",
+    "top": "beesknees:block/warped_beehive_end"
+  }
+}

@@ -1,3 +1,12 @@
-// 1.20.1	2025-10-31T22:39:56.0048642	Loot Tables
+// 1.20.1	2025-11-08T11:51:07.7733401	Loot Tables
+e69dd96964c840693a1b6370921db47a207a0932 data/beesknees/loot_tables/blocks/acacia_beehive.json
+ebb87b5250ed1f490c8312d8bf4de87a55fd8186 data/beesknees/loot_tables/blocks/bamboo_beehive.json
 cde0920d12c4f34091953d05bb2591ffab30af50 data/beesknees/loot_tables/blocks/birch_beehive.json
+898ce57fd34d9237db274f4d1e322f7afa7e949a data/beesknees/loot_tables/blocks/cherry_beehive.json
+a5850c2729b9354b1f21e29555fde981fe60614a data/beesknees/loot_tables/blocks/crimson_beehive.json
+10d011b47b195a7230a9869741d7dbbd38900e02 data/beesknees/loot_tables/blocks/dark_oak_beehive.json
+1afd279c67864573f8259258f1eae4118b684d4c data/beesknees/loot_tables/blocks/jungle_beehive.json
+51fc27eb5e95cd5723331ec969b7b9803481f06f data/beesknees/loot_tables/blocks/mangrove_beehive.json
 e509a89672864ecf0355dc849c46a85e469bb4df data/beesknees/loot_tables/blocks/pink_beehive.json
+7a57c6e3c27833dad68fe94f2cdbdb3f6808cd01 data/beesknees/loot_tables/blocks/spruce_beehive.json
+2a7097418d80ae5fe085b70e2349715c69d9a129 data/beesknees/loot_tables/blocks/warped_beehive.json
